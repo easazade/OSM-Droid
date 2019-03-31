@@ -26,3 +26,20 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext{
+    rxJavaVersion = "2.1.12"
+    rxAndroidVersion = "2.0.2"
+    rxBindingVersion = ""
+    hugoVersion = ""
+    timberVersion = ""
+    daggerVersion = ""
+    supportLibraryVersion = "27.1.0"
+    constraintLayoutVersion = "1.1.0"
+    junitVersion = "4.12"
+    testRunnerVersion = "1.0.1"
+    espressoCoreVersion = "3.0.1"
+    calligraphyVersion = "2.3.0"
+    mockitoVersion = "2.18.0"
+    picassoVersion = "2.71828"
+}
